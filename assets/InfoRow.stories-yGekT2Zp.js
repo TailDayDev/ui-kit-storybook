@@ -1,0 +1,14 @@
+import{j as e,V as a,s as g}from"./iframe-Drba6mZ1.js";import{u as m}from"./useThemedStyles-cVR-DtoZ.js";import{T as l}from"./Text-Do5dS1qg.js";import{S as p}from"./index-Cy8RnwP-.js";import"./preload-helper-Zf8nSx-t.js";import"./index-Do3x-qHF.js";import"./extends-CF3RwP-h.js";const u=t=>g.create({childrenContainer:{alignItems:"center",flexShrink:0,justifyContent:"center"},shrinkable:{flexShrink:1},infoContainer:{alignItems:"flex-start",flex:1,flexDirection:"column",gap:t.space[1],paddingRight:t.space[4]},row:{alignItems:"center",flexDirection:"row",justifyContent:"space-between",maxWidth:"100%",paddingVertical:t.space[2],width:"100%"}}),d=({children:t,title:h,description:c})=>{const r=m(u);return e.jsxs(a,{style:r.row,children:[e.jsxs(a,{style:r.infoContainer,children:[e.jsx(l,{variant:"headline/regular",style:r.shrinkable,children:h}),c?e.jsx(l,{variant:"caption/regular",color:"secondary",style:r.shrinkable,children:c}):null]}),e.jsx(a,{style:r.childrenContainer,children:t})]})};d.__docgenInfo={description:"Settings row: title and caption on the left, a control on the right.",methods:[],displayName:"InfoRow",props:{children:{required:!0,tsType:{name:"ReactElement"},description:"Trailing control (switch, button, value). Never shrinks."},title:{required:!0,tsType:{name:"string"},description:"Row title (`headline/regular`)."},description:{required:!0,tsType:{name:"string"},description:"Caption under the title (`caption/regular`). Hidden when empty."}}};const j={title:"Components/InfoRow",component:d,args:{title:"Online booking",description:"Clients can book this service from the app",children:e.jsx(p,{value:!0,accessibilityLabel:"Online booking"})}},n={},s={args:{children:e.jsx(p,{value:!1,accessibilityLabel:"Online booking"})}},i={args:{description:""}},o={args:{title:"A long setting title that wraps before reaching the control",description:"A long description that wraps as well; the control on the right keeps its size."}},C=["Default","Off","WithoutDescription","LongText"];n.parameters={...n.parameters,docs:{...n.parameters?.docs,source:{originalSource:"{}",...n.parameters?.docs?.source}}};s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  args: {
+    children: <Switch value={false} accessibilityLabel="Online booking" />
+  }
+}`,...s.parameters?.docs?.source}}};i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`{
+  args: {
+    description: ''
+  }
+}`,...i.parameters?.docs?.source}}};o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{
+  args: {
+    title: 'A long setting title that wraps before reaching the control',
+    description: 'A long description that wraps as well; the control on the right keeps its size.'
+  }
+}`,...o.parameters?.docs?.source}}};export{n as Default,o as LongText,s as Off,i as WithoutDescription,C as __namedExportsOrder,j as default};

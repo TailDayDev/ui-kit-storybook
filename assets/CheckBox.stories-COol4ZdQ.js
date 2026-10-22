@@ -1,0 +1,16 @@
+import{j as i,s as b,r as h}from"./iframe-Drba6mZ1.js";import{C as f}from"./CheckIcon-Df8qcKU4.js";import{u as x}from"./useThemedStyles-cVR-DtoZ.js";import{M as k}from"./index-DMl0EwHp.js";import{I as y}from"./Icon-Cwc6oh7S.js";import"./preload-helper-Zf8nSx-t.js";import"./xml-COHihjjg.js";import"./index-Cpa-95Zj.js";import"./index-CJrLMJTa.js";import"./extends-CF3RwP-h.js";import"./index-NHC-rSwp.js";const p=16,g=4,C=12,v=e=>b.create({box:{alignItems:"center",backgroundColor:e.colors.bg.surface,borderColor:e.colors.border.default,borderRadius:g,borderWidth:e.stroke[1],height:p,justifyContent:"center",width:p},boxActive:{backgroundColor:e.colors.bg.accent,borderWidth:0},boxDisabled:{opacity:e.opacity.disabled}}),l=({isActive:e,handlePress:n,disabled:s=!1,accessibilityLabel:u,testID:m})=>{const d=x(v);return i.jsx(k,{onPress:n,disabled:s,style:[d.box,e&&d.boxActive,s&&d.boxDisabled],testID:m,accessibilityRole:"checkbox",accessibilityLabel:u,accessibilityState:{checked:e,disabled:s},children:e?i.jsx(y,{icon:f,size:C,color:"text.inverse"}):null})};l.__docgenInfo={description:"Checkbox control. Uses `TouchableOpacity` (default pressed opacity) to keep\nthe app's press feedback 1:1.",methods:[],displayName:"CheckBox",props:{isActive:{required:!0,tsType:{name:"boolean"},description:"Checked state: accent fill and check mark."},handlePress:{required:!0,tsType:{name:"signature",type:"function",raw:"() => void",signature:{arguments:[],return:{name:"void"}}},description:"Called on tap. The parent flips `isActive`. Not called while `disabled`."},disabled:{required:!1,tsType:{name:"boolean"},description:"Blocks taps and dims the box (`theme.opacity.disabled`). Defaults to `false`.",defaultValue:{value:"false",computed:!1}},accessibilityLabel:{required:!1,tsType:{name:"string"},description:"Screen-reader label, usually the text of the row next to the box."},testID:{required:!1,tsType:{name:"string"},description:"Test identifier of the tappable box."}}};const w={title:"Components/CheckBox",component:l,args:{isActive:!0,disabled:!1,accessibilityLabel:"Accept terms",handlePress:()=>{}}},r={},t={args:{isActive:!1}},a={args:{disabled:!0}},o={args:{disabled:!0,isActive:!1}},I=()=>{const[e,n]=h.useState(!1);return i.jsx(l,{isActive:e,handlePress:()=>n(s=>!s),accessibilityLabel:"Accept terms"})},c={render:()=>i.jsx(I,{})},P=["Checked","Unchecked","DisabledChecked","DisabledUnchecked","Interactive"];r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:"{}",...r.parameters?.docs?.source}}};t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:`{
+  args: {
+    isActive: false
+  }
+}`,...t.parameters?.docs?.source}}};a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:`{
+  args: {
+    disabled: true
+  }
+}`,...a.parameters?.docs?.source}}};o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{
+  args: {
+    disabled: true,
+    isActive: false
+  }
+}`,...o.parameters?.docs?.source}}};c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`{
+  render: () => <InteractiveCheckBox />
+}`,...c.parameters?.docs?.source}}};export{r as Checked,a as DisabledChecked,o as DisabledUnchecked,c as Interactive,t as Unchecked,P as __namedExportsOrder,w as default};

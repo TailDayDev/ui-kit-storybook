@@ -1,0 +1,1 @@
+import{r as u}from"./iframe-Drba6mZ1.js";const n=l=>{const[e,r]=u.useState(null);u.useEffect(()=>{if(e===null)return;let t=!0;return requestAnimationFrame(()=>{t&&r(null)}),()=>{t=!1}},[e]);const a=u.useCallback(t=>{r({value:t})},[]);return[e===null?l:e.value,a]};export{n as u};

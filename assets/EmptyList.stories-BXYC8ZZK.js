@@ -1,0 +1,11 @@
+import{j as r,V as d,s as u}from"./iframe-Drba6mZ1.js";import{u as y}from"./useThemedStyles-cVR-DtoZ.js";import{T as g}from"./Text-Do5dS1qg.js";import{B as f}from"./Box-P5sGDsdo.js";import"./preload-helper-Zf8nSx-t.js";import"./index-Do3x-qHF.js";const T=150,h=a=>u.create({container:{alignItems:"center",marginTop:T,gap:a.space[4]}}),n=({message:a,illustration:i,style:l,textStyle:p,testID:m})=>{const c=y(h);return r.jsxs(d,{style:[c.container,l],testID:m,children:[i,r.jsx(g,{variant:"headline/medium",color:"secondary",style:p,children:a})]})};n.__docgenInfo={description:'"No results" placeholder for lists: an image above a grey message.',methods:[],displayName:"EmptyList",props:{message:{required:!0,tsType:{name:"string"},description:"Message (`headline/medium`, secondary). The app wrapper passes the translated `no_results_found` by default."},illustration:{required:!1,tsType:{name:"ReactNode"},description:"Image above the message, rendered as is. The app wrapper passes its\n`magicSearchIcon` image (80pt, tinted `#ccc`)."},style:{required:!1,tsType:{name:"StyleProp",elements:[{name:"ViewStyle"}],raw:"StyleProp<ViewStyle>"},description:"Container style, applied over the default 150pt top margin."},textStyle:{required:!1,tsType:{name:"StyleProp",elements:[{name:"TextStyle"}],raw:"StyleProp<TextStyle>"},description:"Extra message style."},testID:{required:!1,tsType:{name:"string"},description:"Test identifier of the container."}}};const o=80,S=()=>r.jsx(f,{background:"subtle",radius:"full",style:{width:o,height:o}}),N={title:"Components/EmptyList",component:n,args:{message:"Ничего не найдено",illustration:r.jsx(S,{})}},e={},t={args:{illustration:void 0}},s={args:{style:{marginTop:0}}},O=["Default","WithoutIllustration","NoTopOffset"];e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:"{}",...e.parameters?.docs?.source}}};t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:`{
+  args: {
+    illustration: undefined
+  }
+}`,...t.parameters?.docs?.source}}};s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  args: {
+    style: {
+      marginTop: 0
+    }
+  }
+}`,...s.parameters?.docs?.source}}};export{e as Default,s as NoTopOffset,t as WithoutIllustration,O as __namedExportsOrder,N as default};

@@ -1,0 +1,8 @@
+import{j as o,V as i,r as p}from"./iframe-Drba6mZ1.js";import{S as a}from"./StickySegmentedControl-D8YCoIUI.js";import"./preload-helper-Zf8nSx-t.js";import"./index-IGWuf7O1.js";import"./index-CJrLMJTa.js";import"./SegmentedControl-BWeyiAuf.js";import"./useThemedStyles-cVR-DtoZ.js";import"./Animated-C1wt_1Nj.js";import"./extends-CF3RwP-h.js";import"./index-o-lnbjyp.js";import"./index-B8j4hG7g.js";import"./index-CdAw7h69.js";import"./index-FuSJnDjU.js";import"./index-BPIMqECe.js";import"./index-Cpa-95Zj.js";import"./index-Do3x-qHF.js";import"./index-DMl0EwHp.js";import"./index-NHC-rSwp.js";import"./Text-Do5dS1qg.js";const D={title:"Components/StickySegmentedControl",component:a,args:{options:["Care","Pet","Owner"],selectedIndex:0,onChange:()=>{},screenWidth:360,top:0,style:{left:16,position:"absolute",right:16}},decorators:[s=>o.jsx(i,{style:{height:120,width:392},children:o.jsx(s,{})})]},e={},t={args:{top:40,selectedIndex:2}},c=()=>{const[s,n]=p.useState(0);return o.jsx(a,{options:["Care","Pet","Owner"],selectedIndex:s,onChange:n,screenWidth:360,top:0,style:{left:16,position:"absolute",right:16}})},r={render:()=>o.jsx(c,{})},P=["Default","OffsetTop","Interactive"];e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:"{}",...e.parameters?.docs?.source}}};t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:`{
+  args: {
+    top: 40,
+    selectedIndex: 2
+  }
+}`,...t.parameters?.docs?.source}}};r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`{
+  render: () => <InteractiveSticky />
+}`,...r.parameters?.docs?.source}}};export{e as Default,r as Interactive,t as OffsetTop,P as __namedExportsOrder,D as default};
